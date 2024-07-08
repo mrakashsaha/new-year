@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.brand-red {
+    color:rgb(255, 0, 0);
+}
+.inter {
+
+    font-family: "Inter", sans-serif;
+}
+
+
+.merri {
+    font-family: "Merriweather", serif;
+}
+
+
+
+
+/* Banner section style starts here */
+.banner-container {
+    max-width:1320px;
+    margin: 0 auto;
+    min-height:600px;
+    
+    margin-top: 50px;
+    background-image: url("images/Banner\ Image.png"), linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 16px;
+    background-blend-mode: overlay;
+
+}
+
+.banner-content {
+
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    text-align: center;
+
+}
+
+
+.banner-container p {
+    font-family: Merriweather;
+    font-size: 32px;
+}
+
+.banner-container h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* Section 65% OFF Offer */
+.offer-section {
+width: 802.9px;
+height: 806px;
+margin: 0 auto;
+margin-top:120px;
+text-align: center;
+}
+
+.offer-content h1 {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    margin-bottom: 48px;
+    
+}
+
+.offer-content p {
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+
+}
+
+.offer-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    
+}
+
+.offer-section img {
+    width: 802.9px;
+    height: 500px;
+    margin-top: 48px;
+}
+
+
