@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
 .brand-red {
-    color:rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
 }
+
 .inter {
 
     font-family: "Inter", sans-serif;
@@ -24,15 +25,15 @@
 
 /* Banner section style starts here */
 .banner-container {
-    max-width:1320px;
+    max-width: 1320px;
     margin: 0 auto;
-    min-height:600px;
-    
+    min-height: 600px;
+
     margin-top: 50px;
-    background-image: url("images/Banner\ Image.png"), linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+    background-image: url("images/Banner\ Image.png"), linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     border-radius: 16px;
     background-blend-mode: overlay;
 
@@ -40,7 +41,7 @@
 
 .banner-content {
 
-    color:white;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,11 +64,11 @@
 
 /* Section 65% OFF Offer */
 .offer-section {
-width: 802.9px;
-height: 806px;
-margin: 0 auto;
-margin-top:120px;
-text-align: center;
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
 }
 
 .offer-content h1 {
@@ -75,13 +76,13 @@ text-align: center;
     font-weight: 700;
     line-height: 107px;
     margin-bottom: 48px;
-    
+
 }
 
 .offer-content p {
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
 
 }
 
@@ -89,7 +90,7 @@ line-height: 29px;
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
-    
+
 }
 
 .offer-section img {
@@ -99,3 +100,157 @@ line-height: 29px;
 }
 
 
+/* Welcome section start here */
+
+.welcome {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(./images/Vectorrr.png), linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+    background-repeat: none;
+    background-position: center;
+    background-blend-mode: overlay;
+    border-radius: 16px;
+    margin-top: 120px;
+
+}
+
+
+.welcome-content {
+    color: white;
+    display: flex;
+
+}
+
+.welcome-left {
+    width: 60%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 126px;
+
+}
+
+.welcome-right {
+    width: 40%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-left h2 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    margin-bottom: 24px;
+
+}
+
+.welcome-left p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 48px;
+    color: rgba(255, 255, 255, 0.8);
+
+
+}
+
+.welcome-left .join-now {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 32px;
+
+}
+
+/* Shedule start here */
+
+.shedule {
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin-top: 120px;
+}
+
+.shedule-text {
+    margin-top:120px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+
+}
+
+
+.shedule-text>span {
+    color: rgb(255, 0, 0);
+}
+
+
+.shedule-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+
+.red-btn button {
+    border: none;
+    background-color: rgb(255, 0, 0);
+    padding: 16px 32px 16px 32px;
+    border-radius: 16px;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+    margin-top: 48px;
+}
+
+
+/* Comming Soon */
+
+.comming-soon {
+    width: 1320px;
+    height: 463px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.comming-container {
+    display: flex;
+}
+
+
+.comming-container>.left-side {
+    width: 34%;
+    height: 463px;
+    border: 2px solid yellow;
+}
+
+
+.comming-container>.mid-side {
+    width: 34%;
+    height: 463px;
+    border: 2px solid green;
+}
+
+
+.comming-container>.right-side {
+    width: 34%;
+    height: 463px;
+    border: 2px solid orange;
+}
