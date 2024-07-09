@@ -183,7 +183,7 @@
 }
 
 .shedule-text {
-    margin-top:120px;
+    margin-top: 120px;
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
@@ -228,7 +228,7 @@
     height: 463px;
 
     margin: 0 auto;
-    margin-top:120px;
+    margin-top: 120px;
 }
 
 .comming-container {
@@ -242,8 +242,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right:70px;
-    
+    padding-right: 70px;
+
 }
 
 .comming-container>.left-side>h5 {
@@ -256,7 +256,7 @@
     font-size: 48px;
     font-weight: 900;
     line-height: 60px;
-    margin-top:16px;
+    margin-top: 16px;
 }
 
 .comming-container>.left-side>p {
@@ -281,15 +281,15 @@
 }
 
 .stroke {
-    border-radius: 50%; 
+    border-radius: 50%;
     outline: 15px solid rgb(255, 0, 0);
     outline-offset: 40px;
 
-    }
+}
 
 .mid img {
-width: 364.84px;
-height: 364.84px;
+    width: 364.84px;
+    height: 364.84px;
 
 }
 
@@ -298,31 +298,252 @@ height: 364.84px;
     width: 34%;
     height: 463px;
 
-    padding-left:118px;
-    display:flex;
+    padding-left: 118px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
 
 .comming-container>.right-side h3 {
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
-    
+
 }
+
 .comming-container>.right-side p {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    color:rgba(7, 2, 17, 0.6);
+    color: rgba(7, 2, 17, 0.6);
     margin-top: 16px;
-    
+
 }
+
 .comming-container>.right-side img {
     width: 140px;
     margin-top: 43px;
-    
-    
+
+
 }
 
+/* Holiday Section start here */
+
+.holiday {
+    width: 1320px;
+    height: 986px;
+    margin: 0 auto;
+    margin-top: 120px;
+    position: relative;
+}
+
+.holiday-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1068px;
+    margin: 0 auto;
+}
+
+
+.holiday-text-container h4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+
+}
+
+.holiday-text-container h2 {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    color: rgb(7, 2, 17);
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.holiday-text-container p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+/* Holiday solid color section start from here */
+
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 16px;
+    position: absolute;
+    top: 76.9%;
+}
+
+.gift-banner {
+
+    height: 577.96px;
+    display: flex;
+    padding-top: 64px;
+}
+
+.giftbox {
+    width: 674.82px;
+}
+
+.giftbox img {
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+
+}
+
+.fifty {
+    width: 646px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+/* Portfolio section start here */
+
+.portfolio {
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+
+.portfolio-text {
+    margin-bottom: 48px;
+}
+
+.portfolio-text h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+
+}
+
+.portfolio-text h2 {
+
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+
+}
+
+.portfolio-text p {
+
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer start here */
+
+
+.footer {
+    width: 100%;
+    background: rgb(7, 2, 17);
+    margin-top: 120px;
+}
+
+.footer-container {
+    width: 90%;
+
+
+    color: white;
+    margin: 0 auto;
+
+}
+
+.footer-front {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49.5px;
+    padding-top: 120px;
+}
+
+
+.footer-front-left p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-front-right p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+
+
+}
+
+
+.fa-solid {
+    margin-right: 20px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+}
+
+
+.social-icons {
+
+    width: 328px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 48px;
+
+}
+
+.footer-bottom {
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 120px;
+}
